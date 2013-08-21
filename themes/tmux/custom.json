@@ -21,7 +21,7 @@
 		},
 		"weather": {
 			"args": {
-				"location_query": "seoul, korea"
+				"location_query": "seoul, south korea"
 			}
 		},
 		"email_imap_alert": {
@@ -93,10 +93,6 @@
 				"name": "branch",
 				"module": "ext.tmux.segments.branch",
 				"priority": 90
-			},
-			{
-				"name": "weather",
-				"priority": 90
 			}
 		],
 		"right": [
@@ -120,6 +116,10 @@
 					"istime": true
 				},
 				"priority": 80
+			},
+			{
+				"name": "weather",
+				"priority": 90
 			},
 			{
 				"name": "cpu_load",
