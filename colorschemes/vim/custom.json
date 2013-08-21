@@ -1,0 +1,99 @@
+{
+	"name": "Solarized Light",
+	"groups": {
+		"background":               { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"background:divider":       { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"mode":                     { "fg": "lightyellow", "bg": "blue", "attr": ["bold"] },
+		"visual_range":             { "fg": "green", "bg": "oldlace", "attr": ["bold"] },
+		"modified_indicator":       { "fg": "red", "bg": "lightyellow", "attr": ["bold"] },
+		"paste_indicator":          { "fg": "lightyellow", "bg": "orange", "attr": ["bold"] },
+		"readonly_indicator":       { "fg": "red", "bg": "darkgreencopper" },
+		"branch":                   { "fg": "lightyellow", "bg": "royalblue5" },
+		"branch_dirty":             { "fg": "yellow", "bg": "royalblue5" },
+		"branch_clean":             { "fg": "lightyellow", "bg": "royalblue5" },
+		"branch:divider":           { "fg": "gray61", "bg": "royalblue5" },
+		"file_directory":           { "fg": "gray61", "bg": "darkgreencopper" },
+		"file_name":                { "fg": "lightyellow", "bg": "darkgreencopper", "attr": ["bold"] },
+		"file_size":                { "fg": "lightyellow", "bg": "darkgreencopper" },
+		"file_name_no_file":        { "fg": "lightyellow", "bg": "darkgreencopper", "attr": ["bold"] },
+		"file_name_empty":          { "fg": "lightyellow", "bg": "darkgreencopper" },
+		"file_format":              { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"file_encoding":            { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"file_type":                { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"get_char_code":            { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"file_vcs_status":          { "fg": "red", "bg": "darkgreencopper" },
+		"file_vcs_status_M":        { "fg": "yellow", "bg": "darkgreencopper" },
+		"file_vcs_status_A":        { "fg": "green", "bg": "darkgreencopper" },
+		"line_percent":             { "fg": "oldlace", "bg": "azure4" },
+		"line_percent_gradient":    { "fg": "green_yellow_red", "bg": "azure4" },
+		"line_current":             { "fg": "lightyellow", "bg": "royalblue5", "attr": ["bold"] },
+		"line_current_symbol":      { "fg": "lightyellow", "bg": "royalblue5" },
+		"virtcol_current_gradient": { "fg": "GREEN_Orange_red", "bg": "royalblue5" },
+		"col_current":              { "fg": "lightyellow", "bg": "darkgreencopper" },
+		"environment":              { "fg": "gray61", "bg": "royalblue5" },
+		"unite_status_string":      { "fg": "lightskyblue4", "bg": "lightyellow" },
+		"currenttag":               { "fg": "orange", "bg": "lightyellow", "attr": ["bold"] }
+	},
+	"mode_translations": {
+		"nc": {
+			"colors": {
+				"darkgreencopper": "royalblue5",
+				"lightskyblue4": "royalblue5",
+				"azure4": "darkgreencopper",
+				"gray61": "lightskyblue4",
+				"lightyellow": "azure4",
+				"oldlace": "gray61"
+			}
+		},
+		"i": {
+			"groups": {
+				"background":             { "fg": "lightskyblue4", "bg": "lightyellow" },
+				"background:divider":     { "fg": "lightskyblue4", "bg": "lightyellow" },
+				"mode":                   { "fg": "oldlace", "bg": "orange", "attr": ["bold"] },
+				"modified_indicator":     { "fg": "yellow", "bg": "lightyellow", "attr": ["bold"] },
+				"paste_indicator":        { "fg": "lightyellow", "bg": "orange", "attr": ["bold"] },
+				"readonly_indicator":     { "fg": "red", "bg": "lightyellow" },
+				"branch":                 { "fg": "lightyellow", "bg": "lightskyblue4" },
+				"branch:divider":         { "fg": "lightskyblue4", "bg": "lightyellow" },
+				"file_directory":         { "fg": "darkgreencopper", "bg": "gray61" },
+				"file_name":              { "fg": "oldlace", "bg": "gray61", "attr": ["bold"] },
+				"file_size":              { "fg": "oldlace", "bg": "gray61" },
+				"file_name_no_file":      { "fg": "oldlace", "bg": "gray61", "attr": ["bold"] },
+				"file_name_empty":        { "fg": "oldlace", "bg": "gray61" },
+				"file_format":            { "fg": "azure4", "bg": "lightyellow" },
+				"file_encoding":          { "fg": "azure4", "bg": "lightyellow" },
+				"file_type":              { "fg": "azure4", "bg": "lightyellow" },
+				"get_char_code":          { "fg": "azure4", "bg": "lightyellow" },
+				"file_vcs_status":        { "fg": "red", "bg": "gray61" },
+				"file_vcs_status_M":      { "fg": "yellow", "bg": "gray61" },
+				"file_vcs_status_A":      { "fg": "green", "bg": "gray61" },
+				"line_percent":           { "fg": "lightyellow", "bg": "gray61" },
+				"line_percent_gradient":  { "fg": "green_yellow_red", "bg": "gray61" },
+				"line_current":           { "fg": "lightyellow", "bg": "lightskyblue4", "attr": ["bold"] },
+				"line_current_symbol":    { "fg": "lightyellow", "bg": "lightskyblue4" },
+				"virtcol_current_gradient": { "fg": "GREEN_Orange_red", "bg": "lightskyblue4" },
+				"col_current":            { "fg": "oldlace", "bg": "lightskyblue4" }
+			}
+		},
+		"v": {
+			"groups": {
+				"mode": { "fg": "oldlace", "bg": "magenta", "attr": ["bold"] }
+			}
+		},
+		"V": {
+			"groups": {
+				"mode": { "fg": "oldlace", "bg": "magenta", "attr": ["bold"] }
+			}
+		},
+		"^V": {
+			"groups": {
+				"mode": { "fg": "oldlace", "bg": "magenta", "attr": ["bold"] }
+			}
+		},
+		"R": {
+			"groups": {
+				"mode": { "fg": "oldlace", "bg": "violet", "attr": ["bold"] }
+			}
+		}
+	}
+}
