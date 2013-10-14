@@ -1,7 +1,7 @@
 # Customized Tmux Powerline configs
 
 ## Requirements
-  [Tmux Powerline]<https://github.com/Lokaltog/powerline>
+  [Tmux Powerline](https://github.com/Lokaltog/powerline)
 
 ## Install
 
