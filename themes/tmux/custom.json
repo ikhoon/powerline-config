@@ -39,7 +39,7 @@
 		},
 		"cpu_load": {
 			"args": {
-				"steps": 8,
+				"steps": 5,
         "cpu_glyph": "▦",
         "circle_glyph": "█" 
 			}
@@ -51,7 +51,7 @@
 		},
 		"used_memory": {
 			"args": {
-				"steps": 8,
+				"steps": 5,
         "memory_glyph": "▥",
         "circle_glyph": "█" 
 			}
@@ -82,32 +82,25 @@
 		},
 		"network_load": {
 			"args": {
-				"recv_format": "⬇ {value:>8} ",
-				"sent_format": "⬆ {value:>8}"
+				"recv_format": "⬇{value:>8} ",
+				"sent_format": "⬆{value:>8}"
 			}
 		}
 	},
 	"segments": {
 		"left": [
 			{
-				"name": "branch",
-				"module": "ext.tmux.segments.branch",
-				"priority": 90
+				"name": "date",
+				"args": {
+					"format": "%Y.%m.%d"
+        },
+				"priority": 50
 			}
 		],
 		"right": [
 			{
 				"name": "network_load",
 				"priority": 50
-			},
-			{
-				"name": "battery_percent_gradient",
-				"module": "ext.tmux.segments.ps",
-				"priority": 50
-			},
-			{
-				"name": "date",
-				"priority": 80
 			},
 			{
 				"name": "date",
@@ -124,12 +117,12 @@
 			{
 				"name": "cpu_load",
 				"module": "ext.tmux.segments.ps",
-				"priority": 50
+				"priority": 80
 			},
 			{
 				"name": "used_memory",
 				"module": "ext.tmux.segments.ps",
-				"priority": 50
+				"priority": 80
 			}
 		]
 	}
